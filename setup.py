@@ -3,9 +3,12 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
+with open("requirements.txt", "r") as req_file:
+    req = req_file.read()
+
 setup(
     name='AntFake',
-    version='0.1.2',
+    version='0.1.3',
     license='MIT',
     author="Inkviz96",
     author_email='b-semen-b@mail.ru',
@@ -15,7 +18,7 @@ setup(
     description="Ant is library for generation random string, float, eth address and pk, etc",
     long_description=readme,
     long_description_content_type="text/markdown",
-    install_requires=["requests==2.27.1"],
+    install_requires=req,
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",

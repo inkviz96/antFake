@@ -15,7 +15,6 @@ setup(
     description="Ant is library for generation random string, float, eth address and pk, etc",
     long_description=readme,
     long_description_content_type="text/markdown",
-    install_requires=[""],
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",

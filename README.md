@@ -11,7 +11,7 @@ pip install AntFake==0.1.0
 
 Get random string
 ```python
-from src.ant_fake import r_string
+from ant_fake import r_string
 random_string = r_string(length=16, space=True)
 
 >>> 'Sdw rrvSfreHL fs'
@@ -19,7 +19,7 @@ random_string = r_string(length=16, space=True)
 
 Random eth address
 ```python
-from src.ant_fake import address
+from ant_fake import address
 random_addr = address()
 
 >>> '0x1a1ec25DC08e98e5E93F1104B5e5cdD298707d31'
@@ -27,7 +27,7 @@ random_addr = address()
 
 Random float
 ```python
-from src.ant_fake import r_digital
+from ant_fake import r_digital
 random_addr = r_digital(start=0, end=1000, decimals=8)
 
 >>> 26.42244885
@@ -35,7 +35,7 @@ random_addr = r_digital(start=0, end=1000, decimals=8)
 
 Random digital
 ```python
-from src.ant_fake import r_digital
+from ant_fake import r_digital
 random_addr = r_digital(start=0, end=1000)
 
 >>> 197

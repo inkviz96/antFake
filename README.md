@@ -6,7 +6,7 @@
 
 ### Install
 ```shell
-pip install AntFake==0.1.0
+pip install AntFake==0.1.1
 ```
 
 Get random string

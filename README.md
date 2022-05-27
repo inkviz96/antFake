@@ -1,6 +1,13 @@
-### Ant Fake
+## Ant Fake
 
 [Github repository](https://github.com/inkviz96/antFake)
+
+[PyPi](https://pypi.org/project/AntFake/)
+
+### Install
+```shell
+pip install AntFake==0.1.0
+```
 
 Get random string
 ```python

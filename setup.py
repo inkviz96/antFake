@@ -5,7 +5,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name='AntFake',
-    version='0.1.1',
+    version='0.1.2',
     license='MIT',
     author="Inkviz96",
     author_email='b-semen-b@mail.ru',
